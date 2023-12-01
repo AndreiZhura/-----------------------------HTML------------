@@ -2,6 +2,7 @@
     margin: 0 auto;
     font-family: Inter, Arial, Helvetica, sans-serif;
     border: 1px solid red;
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,21 +14,66 @@
     box-sizing: border-box;
 }
 
-p{
-    color: black;
+.header {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+color: #fff;
+
 }
-.circle-wrap .inside-circle {
-    width: 122px;
-    height: 122px;
-    border-radius: 50%;
-    background: #d2eaf1;
-    line-height: 120px;
-    text-align: center;
-    margin-top: 14px;
-    margin-left: 14px;
-    color: #1e51dc;
-    position: absolute;
-    z-index: 100;
-    font-weight: 700;
-    font-size: 2em;
-  }
+
+
+.header-info {
+    border: 1px solid green;
+    width: 1170px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+
+
+}
+.header-info__item {
+    display: flex;
+    
+
+}
+.header-info__image {
+}
+.header-info__and {
+}
+.header-info__logo {
+}
+.header-info__telephone-image {
+}
+.header-info__telephone-number {
+}
+.header-info__adress-image {
+}
+.header-info__adress-info {
+}
+.header-info__adress-time {
+}
+
+.navigation {
+    width: 100%;    background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+.navigator__links {
+    margin-right: 100px;
+    border: 1px solid red;
+
+}
+.navigator__link {
+    color: #fff;
+    text-decoration: none;
+}
+
