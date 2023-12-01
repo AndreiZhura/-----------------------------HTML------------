@@ -140,11 +140,12 @@
 }
 
 .time {
-   
+   display: flex;
+   border: 1px solid red;
 }
 .time__title {
 }
 .clock {
-  display: flex;
+ display: flex;
  border: 1px solid green;
 }
