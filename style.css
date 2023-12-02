@@ -1,6 +1,6 @@
 .page {
     margin: 0 auto;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: 'Haval', Arial, Helvetica, sans-serif;
     border: 1px solid red;
     max-width: 1920px;
     display: flex;
@@ -18,8 +18,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, #000000, #000000),
-        linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    /* background: linear-gradient(0deg, #000000, #000000),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));*/
+    background-color: #00CABF;
     color: #fff;
 }
 
@@ -30,27 +31,79 @@
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
+    padding-left: 15px;
 }
 
 .header-info__item {
     display: flex;
+    border: 1px solid green;
 }
 
-.header-info__image {}
 
-.header-info__and {}
 
-.header-info__logo {}
 
-.header-info__telephone-image {}
 
-.header-info__telephone-number {}
+.header-info__image {
+    width: 162px;
+    height: 42px;
+    margin-top: 3px;
+}
 
-.header-info__adress-image {}
+.header-info__and {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
-.header-info__adress-info {}
+/*.header-info__logo {}*/
 
-.header-info__adress-time {}
+.header-info__telephone-image {
+    width: 21px;
+    height: 24px;
+}
+
+.header-info__telephone-number {
+    font-family: Haval;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid yellow;
+
+}
+
+.header-info__adress-text{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.header-info__adress-image {
+    width: 17px;
+    height: 28px;
+}
+
+.header-info__adress-info {
+    font-family: Haval;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+}
+
+.header-info__adress-time {
+    font-family: Haval;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+}
 
 .navigation {
     width: 100%;
@@ -117,7 +170,7 @@
 .button {
     width: 374px;
     height: 60px;
-    padding: 21px, 23px, 20px, 22px;
+    padding: 21px 23px 20px 22px;
     background: #00CABF;
     font-family: Haval;
     font-size: 16px;
@@ -131,21 +184,27 @@
 
 .leave_a_request {
     border: 1px solid green;
+
 }
 
-.message-button{
+.message-button {
     width: 56px;
     height: 56px;
     background-image: url('./images/div.b24-widget-button-block.png');
 }
 
 .time {
-   display: flex;
-   border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
 }
+
 .time__title {
+    border: 1px solid yellow;
+    text-align: center;
 }
+
 .clock {
- display: flex;
- border: 1px solid green;
+    display: flex;
+    border: 1px solid green;
 }
