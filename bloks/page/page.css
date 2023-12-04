@@ -1,7 +1,7 @@
 .page {
     margin: 0 auto;
     font-family: 'Haval', Arial, Helvetica, sans-serif;
-    border: 1px solid red;
+  
     max-width: 1920px;
     display: flex;
     flex-direction: column;
@@ -12,3 +12,6 @@
     box-sizing: border-box;
 }
 
+.main{
+    width: 100%;
+}

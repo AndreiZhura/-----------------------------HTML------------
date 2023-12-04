@@ -1,7 +1,8 @@
 @import url('../bloks/page/page.css');
 @import url('../bloks/header/header.css');
 @import url('../bloks/navigation/navigation.css');
-
+@import url('../bloks/condition/condition.css');
+@import url('../bloks/time/time.css');
 
 
 @import url('../fonts/fonts.css');
